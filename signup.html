@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Good Newspaper</title>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sign Up Form</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body class="body">
+  	<header class="mainHeader">
+  		<img src="images/topbanner.gif">
+  		<nav><ul>
+        <li> <a href="index.html">Good News</a></li>
+  			<li> <a href="about.html">About</a></li>
+  			<li> <a href="submit.html">Submit</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+  			<li> <a href="signup.html">Sign Up</a></li>
+  		</ul></nav>
+  	</header>
+
+    <form action="index.html" method="post">
+
+      <fieldset>
+        <legend><span class="number">1</span>Your basic info</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" placeholder="John Doe">
+
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" placeholder="your.email@goodnews.com">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password"placeholder="YourPassword">
+
+        <label>Age:</label>
+        <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light">Under 18</label><br>
+        <input type="radio" id="over_18" value="over_18" name="user_age"><label for="over_18" class="light">18 or older</label>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="number">2</span>Your profile</legend>
+        <label for="bio">About Yourself:</label>
+        <textarea id="bio" name="user_bio" placeholder="Write something about yourself, anything!"></textarea>
+      <label>What interests you?</label>
+        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Food/Drinks</label><br>
+        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label><br>
+        <input type="checkbox" id="animal" value="interest_animal" name="user_interest"><label class="light" for="animal">Animal</label><br>
+        <input type="checkbox" id="movies" value="interest_movies" name="user_interest"><label class="light" for="movies">TV/Films</label><br>
+        <input type="checkbox" id="celebrities" value="interest_celebrities" name="user_celebrities"><label class="light" for="celebrities">Celebrities</label><br>
+        <input type="checkbox" id="everything" value="interest_everything" name="user_everything"><label class="light" for="everything">Everything</label><br>
+      </fieldset>
+      <button type="submit">Sign Up</button>
+    </form>
+
+  </body>
+
+	<footer class="mainFooter">
+		<p> © 2015 Phai Dip. All rights reserved </p>
+	</footer>
+
+	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

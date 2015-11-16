@@ -1,0 +1,551 @@
+/* Base Style */
+
+body {
+	background-image: url("images/topbanner.gif");
+	background-color: #f5f5f5;
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+h1 {
+	font-size: 26px;
+	color: #b13070;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #b13070;
+}
+
+h3 {
+	font-size: 14px;
+	color: #b13070;
+}
+
+.readmore{
+
+}
+
+.body {
+	margin: 0 auto;
+	width: 90%;
+	clear: both;
+}
+
+/* Navigation */
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #b13070;
+}
+
+a:hover, a:active{
+	background-color: #b13070;
+	color: #FFF;
+}
+
+.mainHeader img {
+	width: 100%;
+	height: auto;
+}
+
+.mainHeader nav {
+	background-color: #b13070;
+	height: 40px;
+}
+
+.mainHeader ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader ul li{
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #f4cfe4;
+	text-shadow: none;
+}
+
+/* Content */
+
+.mainContent {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radiuis: 5px;
+}
+
+.contentImage {
+	width: 320px;
+	height: auto;
+	border: 3px solid #f4cfe4;
+	border-radius: 2px;
+	margin-top: 2%;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topContent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radiuis: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.middleContent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radiuis: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomContent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radiuis: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radiuis: 5px;
+	margin: 1.5% 0 2% 3%;
+	padding: 2% 3%;
+}
+
+.thumbnail_news{
+	width: 50%;
+}
+
+.middle-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radiuis: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radiuis: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 35px;
+	float: left;
+	background-color: #b13070;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 1% auto;
+	margin-bottom: 2%;
+	color: #FFF;
+	background-color: #b13070;
+}
+
+/* FEWD Article */
+.FEWD_Title {
+	margin-top: 2%;
+}
+
+.FEWD_Footer {
+	width: 100%;
+	height: 35px;
+	float: left;
+	background-color: #b13070;
+	margin: 2% 0;
+}
+
+.FEWD_Footer p{
+		width: 92%;
+		margin: 1% auto;
+		margin-bottom: 2%;
+		color: #FFF;
+		background-color: #b13070;
+}
+
+.goback{
+	color: #000000;
+}
+
+/* Kitten Article */
+.kitten1{
+	width: 100%;
+}
+
+/* About Page*/
+
+#slideshow {
+  /*you don't need the below three properties*/
+	/*position: absolute;*/
+    /*width: 100%;*/
+    /*height: auto;*/
+  /*but use a fixed height instead*/
+    height: 560px;
+}
+
+#slideshow > div {
+	width: 100%;
+    position: absolute;
+}
+
+/*to make it fill the whole container, I set a width on the images of the slide show*/
+#slideshow img {
+  width: 90%;
+}
+
+/* Sign Up Form */
+
+form {
+  max-width: 80%;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: #f4cfe4;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: ##f4cfe4;
+  color: #FFF;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #b13070;
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #f4cfe4;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+legend {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.number {
+  background-color: #b13070;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+/* Contact Page*/
+
+.headerContainer {
+	margin-top, margin-bottom: 2%;
+}
+
+.contactImage	{
+	width: 100%;
+	height: auto;
+}
+
+a {
+  color: #0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.accordion h3 {
+  font-size: 1.25em;
+  padding-top: .35em;
+  padding-bottom: .175em;
+  padding-left: 1em;
+  color: #b13070;
+  background-color: #f4cfe4;
+  border-left: 1px solid transparent;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #b5c3c9;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  position: relative;
+}
+
+.accordion .toggle-active:before,
+.accordion h3:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-right: 1.1em;
+  width: .8em;
+}
+
+/* downward triangle for toggle header */
+.accordion h3:after {
+  margin-top: 16px;
+  height: 12px;
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 12'%3E%3Cpolygon fill='rgb(170,30,80)' points='8,12 0,0 16,0'/%3E%3C/svg%3E") no-repeat;
+}
+
+.accordion .toggle-active,
+.accordion h3:nth-of-type(even).toggle-active {
+  background-color: #f4cfe4;
+  color: #fff;
+  text-shadow: 1px 1px 3px #f4cfe4;
+  border-top-color: #fff;
+  border-bottom-color: #b13070;
+  font-weight: 300;
+}
+
+/* swap downward triangle to upward triangle for active header */
+.accordion .toggle-active:after {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 12'%3E%3Cpolygon fill='rgb(170,30,80)' points='8,0 16,12 0,12'/%3E%3C/svg%3E") no-repeat;
+}
+
+.accordion>div {
+  max-height: 999px;
+  overflow: visible;
+  -webkit-transition: max-height .3s;
+  transition: max-height .3s;
+}
+
+.accordion .closed {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.core .closed {
+  display: none;
+}
+
+.accordion_inner {
+  background-color: #fdf2f8;
+}
+
+.contact-list {
+  margin: 0;
+  padding: .5em 2.5em 1em;
+  list-style: none;
+}
+
+.contact-list li {
+  position: relative;
+  margin: 0 0 0 -.75em;
+  padding: 0 0 0 1em;
+}
+
+.content-contact {
+  padding-top: 1em;
+}
+
+.content-contact p {
+  margin: 0;
+  padding: .5em 3em 1.5em;
+}
+
+.icon-svg-use {
+  position: absolute;
+  top: .27em;
+  left: -.5em;
+  height: 16px;
+  width: 16px;
+  fill: #3aa5bf;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+
+/* Index */
+{
+	.body {
+		width: 95%;
+		font-size: 95%;
+	}
+
+	.mainHeader img{
+		width: 100%;
+	}
+
+	.mainHeader nav {
+		height: 200px;
+	}
+
+	.mainHeader ul {
+		padding-left: 0;
+	}
+
+	.mainHeader ul li{
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.topContent {
+		margin-top: 2%;
+	}
+
+	.middleContent {
+		margin-top: 3%;
+
+	}
+
+	.bottomContent {
+		margin-top: 3%;
+	}
+
+	.top-sidebar, .middle-sidebar, .bottom-sidebar{
+		width: 94%;
+		margin: 1.5% 0 2% 0%;
+		padding: 2% 3%;
+	}
+
+	.aboutTitle {
+		margin-top: -280px;
+	}
+
+
+	#slideshow > div {
+		width: 100%;
+	    position: absolute;
+	}
+
+	/*to make it fill the whole container, I set a width on the images of the slide show*/
+	#slideshow img {
+	  width: 95%;
+	}
+
+	/* Sign up form */
+	legend {
+	  font-size: 16px;
+	  margin-bottom: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1150
+	#slideshow > div {
+		height: 700px;
+	}
+)

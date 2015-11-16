@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Good Newspaper</title>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Submit Your Article</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body class="body">
+  	<header class="mainHeader">
+  		<img src="images/topbanner.gif">
+  		<nav><ul>
+        <li> <a href="index.html">Good News</a></li>
+  			<li> <a href="about.html">About</a></li>
+  			<li> <a href="submit.html">Submit</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+  			<li> <a href="signup.html">Sign Up</a></li>
+  		</ul></nav>
+  	</header>
+
+    <form action="index.html" method="post">
+
+      <fieldset>
+        <h1>Got some good news you would like to share?</h1>
+        <p>We are always on the look out for some good news to share to the world. If you happen to know of something fun, up-lifting or anything at all that you think can put a smile on people's face, please do share!</p><br>
+        <label for="name">Contributors name:</label>
+        <input type="text" id="name" name="user_name" placeholder="John Doe">
+
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" placeholder="your.email@goodnews.com">
+
+        <label for="telephone">Contact number:</label>
+        <input type="text" id="telephone" name="user_telephone" placeholder="020 1234 1234">
+
+        <label for="bio">Your article below:</label>
+        <textarea id="bio" name="user_bio" placeholder="Please type your article here, you can also copy and paste from another document."></textarea>
+
+      <label for="bio">Upload any images you may like to include in your article</label>
+      <input class="uploadPhoto" type="file" name="upload" value="Upload your image">
+      <button type="submit">Submit your article now!</button>
+      <p>Please note: All articles will be administered by a member of our team before it appears online, we cannot promise to post every article due to rules and regulations, so please keep it clean, family-friendly and happy!</p><br>
+
+    </fieldset>
+    </form>
+
+  </body>
+
+	<footer class="mainFooter">
+		<p> © 2015 Phai Dip. All rights reserved </p>
+	</footer>
+
+	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
